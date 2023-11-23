@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameServer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_settings">Settings</string>
+	<string name="menu_exit">Exit</string> 	
+    <string name="service_started">Game Server started</string>
+    <string name="service_stopped">Game Server stopped</string>
+    <string name="service_label">Game Server</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen">
+    
+    <PreferenceCategory
+        android:title="Server"
+        android:key="display_category">
+        
+	    <ListPreference 
+        	android:title="Port"
+    		android:summary="A kiszolgáló portja." 
+			android:entryValues="@array/portvalues" 
+			android:entries="@array/portnames"
+			android:defaultValue="8080"
+			android:key="port">
+		</ListPreference>
+		
+		<CheckBoxPreference
+            android:key="scrollog"
+            android:title="Autómata görgetés"
+            android:summary="Autómata görgetés az utolsó sorra."
+            android:defaultValue="true"/>
+		
+		<CheckBoxPreference
+            android:key="httplog"
+            android:title="Http log"
+            android:summary="Http csomagok loggolása."
+            android:defaultValue="true"/>
+            
+		<CheckBoxPreference
+            android:key="amobalog"
+            android:title="Amőba log"
+            android:summary="Amőba utasítások loggolása."
+            android:defaultValue="true"/>
+		
+		<EditTextPreference
+		    android:title="Log méret"
+		    android:summary="A logbal lévő sorok száma."
+            android:name="logbuffer"
+            android:defaultValue="128"
+            android:key="logbuffer"
+            android:maxLength="4" />
+        
+	</PreferenceCategory>
+    
+</PreferenceScreen>

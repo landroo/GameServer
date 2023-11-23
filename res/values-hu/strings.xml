@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameServer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_start">Elindítás</string>
+    <string name="menu_stop">Megállítás</string>
+    <string name="menu_settings">Beállítások</string>
+	<string name="menu_exit">Kilépés</string>
+    <string name="service_started">Game Server elindult</string>
+    <string name="service_stopped">Game Server megállt</string>
+    <string name="service_label">Game Server</string>
+
+</resources>

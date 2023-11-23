@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_start"
+        android:title="@string/menu_start"
+        android:icon="@drawable/start"/>
+    
+    <item
+        android:id="@+id/menu_stop"
+        android:title="@string/menu_stop"
+        android:icon="@drawable/stop"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/settings"/>
+
+	<item android:titleCondensed="@string/menu_exit" 
+		android:id="@+id/menu_exit"
+		android:title="@string/menu_exit" 
+		android:enabled="true"
+		android:icon="@drawable/exit"/>
+		
+</menu>
